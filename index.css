@@ -1,0 +1,36 @@
+
+/* GLOBAL STYLES */
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1e293b;
+  background: #f4f6fb;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
